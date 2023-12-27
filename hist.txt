@@ -1,0 +1,69 @@
+  731  parted
+  732  cfdisk
+  733  sudo cfdisk
+  734  sudo rescan
+  735  sudo /sys/class/block/sda/device/rescan
+  736  echo 1>sudo /sys/class/block/sda/device/rescan
+  737  sudo cfdisk
+  738  sudo lsblk
+  739  sudo parted
+  740  sudo resize2fs /dev/sda3 
+  741  sudo resize2fs /dev/sda3 40GB
+  742  sudo resize2fs /dev/sda3 38GB
+  743  sudo resize2fs /dev/sda3 35GB
+  744  sudo parted
+  745  cat /etc/fstttab
+  746  cat /etc/fstab
+  747  sudo resize2fs /dev/sda3 41GB
+  748  sudo resize2fs /dev/sda3
+  749  sudo resize2fs /dev/sda3 6
+  750  cat /etc/fstab
+  751  sudo parted
+  752  df -h
+  753  exit
+  754  pwd
+  755  md 001
+  756  mkdir 001
+  757  cd 001
+  758  cat pets.txt
+  759  cat > pets.txt
+  760  cat > packs.txt
+  761  cat pets.txt + packs.txt > animals.txt
+  762  cat pets.txt packs.txt > animals.txt
+  763  cat animals.txt
+  764  mkdir animals
+  765  mv animals.txt animals
+  766  cd animals
+  767  ls
+  768  nano animal.txt
+  769  nano animals.txt
+  770  cat animals.txt
+  771  nano /etc/apt/sources.list.d
+  772  nano /etc/apt/sources.list.d/
+  773  nano /etc/apt/sources.list
+  774  sudo nano /etc/apt/sources.list
+  775  sudo apt update
+  776  sudo nano /etc/apt/sources.list
+  777  sudo apt update
+  778  sudo apt install mysql-server-8.0
+  779  dpkg -l
+  780  dpkg -l gimp
+  781  dpkg -i gimp
+  782  sudo dpkg -i gimp
+  783  sudo apt-get update
+  784  sudo dpkg -i gimp.deb
+  785  sudo dpkg -i gimp
+  786  dpkg -l gimp
+  787  cd ..
+  788  curl https://downloads.vivaldi.com/stable/vivaldi-stable_6.5.3206.48-1_amd64.deb
+  789  -O curl https://downloads.vivaldi.com/stable/vivaldi-stable_6.5.3206.48-1_amd64.deb
+  790  curl -O https://downloads.vivaldi.com/stable/vivaldi-stable_6.5.3206.48-1_amd64.deb
+  791  sudo dpkg -i vivaldi-stable_6.5.3206.48-1_amd64.deb
+  792  sudo dpkg --get-selctions
+  793  sudo dpkg --get-selections
+  794  sudo dpkg -r vivaldi-stable
+  795  sudo dpkg -p vivaldi-stable
+  796  sudo dpkg -i vivaldi-stable_6.5.3206.48-1_amd64.deb
+  797  sudo dpkg -P vivaldi-stable
+  798  history
+  799  history > hist.txt
